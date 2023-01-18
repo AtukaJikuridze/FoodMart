@@ -1,8 +1,8 @@
-.section1-header {
+.section-header {
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  .section1-header-rightside {
+  .section-header-rightside {
     margin-top: 10px;
     display: flex;
     p {
@@ -41,7 +41,7 @@
   }
 }
 @media screen and (max-width: 590px) {
-  .section1-header-rightside {
+  .section-header-rightside {
     p {
       display: none;
     }

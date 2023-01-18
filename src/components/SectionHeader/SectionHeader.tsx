@@ -1,17 +1,20 @@
 import React from "react";
-import "./Section1Header.css";
+import "./SectionHeader.css";
 import { FaArrowRight } from "react-icons/fa";
 import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from "react-icons/md";
-export default function Section1Headet() {
+export default function Section1Headet(props: {
+  title: string;
+  category: string;
+}) {
   return (
-    <div className="section1-header">
-      <h1>Category</h1>
-      <div className="section1-header-rightside">
+    <div className="section-header">
+      <h1>{props.category}</h1>
+      <div className="section-header-rightside">
         <p>
-          View All Categories <FaArrowRight />
+          {props.title} <FaArrowRight />
         </p>
         <div className="arrowBox1">
           <MdOutlineKeyboardArrowLeft />
