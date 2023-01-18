@@ -1,0 +1,58 @@
+.navbar-user-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .navuser-leftside {
+    text-align: right;
+    margin-right: 30px;
+    p {
+      text-justify: kashida;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      text-transform: capitalize;
+      color: #898989;
+      transform: translateY(10px);
+    }
+    h1 {
+      text-justify: kashida;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.05em;
+
+      color: #222222;
+    }
+  }
+}
+
+.navuser-rightside {
+  text-align: left;
+  margin-left: 20px;
+  p {
+    text-justify: kashida;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #898989;
+    transform: translateY(10px);
+  }
+  h1 {
+    text-justify: kashida;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+
+    color: #222222;
+  }
+}

@@ -1,0 +1,36 @@
+.navbottom-main .navbottom-container {
+  padding: 20px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbottom-main .navbottom-container p {
+  font-family: "Open Sans";
+  transform: translateX(25px);
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #222222;
+}
+.navbottom-main .navbottom-container p svg {
+  transform: translateY(1px);
+  font-size: 17px;
+}
+.navbottom-main .navbottom-rightside {
+  display: flex;
+}
+.navbottom-main .navbottom-rightside img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.navbottom-main .navbottom-rightside h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #222222;
+}/*# sourceMappingURL=NavBottom.css.map */

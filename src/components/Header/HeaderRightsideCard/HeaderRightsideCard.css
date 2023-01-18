@@ -1,0 +1,44 @@
+.HeaderRightsideCard {
+  width: 100%;
+  position: relative;
+  height: calc(50% - 10px);
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  padding: 56px;
+  margin-bottom: 20px;
+}
+.HeaderRightsideCard p:nth-child(1) {
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #252525;
+}
+.HeaderRightsideCard h1 {
+  filter: drop-shadow(6px 4px 20px #928885);
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  color: #222222;
+}
+.HeaderRightsideCard p:nth-child(3) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #222222;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.HeaderRightsideCard p:nth-child(3) svg {
+  transform: translateY(4px);
+}/*# sourceMappingURL=HeaderRightsideCard.css.map */

@@ -1,0 +1,56 @@
+.navbar-user-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-user-main .navuser-leftside {
+  text-align: right;
+  margin-right: 30px;
+}
+.navbar-user-main .navuser-leftside p {
+  text-justify: kashida;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #898989;
+  transform: translateY(10px);
+}
+.navbar-user-main .navuser-leftside h1 {
+  text-justify: kashida;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+
+.navuser-rightside {
+  text-align: left;
+  margin-left: 20px;
+}
+.navuser-rightside p {
+  text-justify: kashida;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #898989;
+  transform: translateY(10px);
+}
+.navuser-rightside h1 {
+  text-justify: kashida;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #222222;
+}/*# sourceMappingURL=NavUser.css.map */

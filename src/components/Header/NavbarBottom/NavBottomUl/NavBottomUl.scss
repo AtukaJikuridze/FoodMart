@@ -1,0 +1,30 @@
+ul {
+  display: flex;
+  gap: 30px;
+  margin-left: -200px;
+  li {
+    list-style-type: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    width: 95px;
+    height: 38px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  li:hover {
+    background: #ffc43f;
+  }
+  li:nth-child(1) {
+    background: #ffc43f;
+  }
+}
