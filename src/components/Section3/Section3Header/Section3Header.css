@@ -1,0 +1,43 @@
+.section3-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3-header h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #222222;
+}
+.section3-header ul {
+  display: flex;
+  gap: 45px;
+}
+.section3-header ul li {
+  list-style-type: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #858585;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.section3-header ul li.active {
+  position: relative;
+}
+.section3-header ul li.active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -10px;
+  height: 3px;
+  background: #ffc43f;
+}/*# sourceMappingURL=Section3Header.css.map */

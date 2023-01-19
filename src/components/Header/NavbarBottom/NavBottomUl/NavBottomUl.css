@@ -1,9 +1,9 @@
-ul {
+.nav-ul {
   display: flex;
   gap: 30px;
   margin-left: -200px;
 }
-ul li {
+.nav-ul li {
   list-style-type: none;
   font-family: "Open Sans";
   font-style: normal;
@@ -22,9 +22,9 @@ ul li {
   transition: 0.2s;
   cursor: pointer;
 }
-ul li:hover {
+.nav-ul li:hover {
   background: #ffc43f;
 }
-ul li:nth-child(1) {
+.nav-ul li:nth-child(1) {
   background: #ffc43f;
 }/*# sourceMappingURL=NavBottomUl.css.map */

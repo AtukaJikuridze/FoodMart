@@ -7,7 +7,6 @@ export default function HeaderLeftsideCard() {
       <p>100% Natural</p>
       <h1>Fresh Smoothie & Summer Juice</h1>
       <p>Best selling summer juice with natural extracts.</p>
-      <button>SHOP NOW</button>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import "./NavBottomUl.css";
 
 export default function NavBottomUl() {
   return (
-    <ul>
+    <ul className="nav-ul">
       <li>Home</li>
       <li>Shop</li>
       <li>Page</li>
