@@ -14,6 +14,7 @@ export default function Section3Card(props: {
   quantityDown: any;
   quantityUp: any;
   image: string;
+  className: any;
 }) {
   const quantityRef = useRef<any>(null);
 
@@ -21,7 +22,7 @@ export default function Section3Card(props: {
     <Col lg={3}>
       <div className="section3-card">
         <div className="section3-card-image">
-          <img src={props.image} alt="" />
+          <img src={props.image} alt="" className={props.className} />
         </div>
         <div className="section3-card-text">
           <h2>{props.title}</h2>

@@ -11,15 +11,13 @@ export default function Section3Header(props: {
   function activeStatus(activeNumber: number) {
     props.setActive(activeNumber);
     if (activeNumber === 2) {
-      props.setFilt(["fruit"]);
+      props.setFilt("fruit");
     } else if (activeNumber === 3) {
-      props.setFilt(["juice"]);
+      props.setFilt("juice");
     } else if (activeNumber === 4) {
-      props.setFilt(["veggie"]);
-    } else if (activeNumber === 5) {
-      props.setFilt(["meat"]);
+      props.setFilt("veggie");
     } else if (activeNumber === 1) {
-      props.setFilt(["all"]);
+      props.setFilt("all");
     }
   }
 
@@ -50,12 +48,6 @@ export default function Section3Header(props: {
             <li className="active"> VEGETABLES </li>
           ) : (
             <li onClick={() => activeStatus(4)}>VEGETABLES</li>
-          )}
-
-          {props.active === 5 ? (
-            <li className="active">RAW MEATS</li>
-          ) : (
-            <li onClick={() => activeStatus(5)}>RAW MEATS</li>
           )}
         </ul>
       </div>

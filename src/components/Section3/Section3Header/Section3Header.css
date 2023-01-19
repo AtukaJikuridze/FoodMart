@@ -40,4 +40,22 @@
   bottom: -10px;
   height: 3px;
   background: #ffc43f;
+}
+
+@media screen and (max-width: 991px) {
+  .section3-header h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .section3-header {
+    display: block;
+    text-align: center;
+  }
+  .section3-header ul {
+    justify-content: center;
+  }
+  .section3-header h1 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=Section3Header.css.map */
