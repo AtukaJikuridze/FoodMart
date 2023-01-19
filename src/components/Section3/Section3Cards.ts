@@ -63,7 +63,7 @@ export const cardArray = [
     price: "$12.00",
     quantity: 0,
     id: 4,
-    filt: "veggie",
+    filt: "fruit",
   },
 
   {

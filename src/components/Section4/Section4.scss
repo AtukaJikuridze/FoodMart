@@ -1,0 +1,29 @@
+.section4 {
+  padding: 70px 0px 100px 0px;
+  position: relative;
+}
+.section4-bg {
+  position: absolute;
+  left: -100px;
+  top: -50%;
+}
+
+@media screen and (max-width: 1600px) {
+  .section4 {
+    padding: 0px 0px 100px 0px;
+  }
+  .section4 .col-lg-6:nth-child(1) {
+    display: none !important;
+  }
+  .section4 .col-lg-6:nth-child(2) {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .section4-bg {
+    display: none;
+  }
+}
