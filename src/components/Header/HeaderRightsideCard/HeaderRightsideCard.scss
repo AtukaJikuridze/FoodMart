@@ -10,13 +10,13 @@
   margin-bottom: 20px;
 
   p:nth-child(1) {
-    font-family: "Garamond";
+    font-family: "Nunito";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 37px;
     line-height: 42px;
     text-transform: capitalize;
-    color: #252525;
+    color: #252525e3;
   }
 
   h1 {
@@ -33,7 +33,7 @@
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     text-transform: capitalize;
     color: #222222;
@@ -41,6 +41,13 @@
     margin-top: 30px;
     svg {
       transform: translateY(4px);
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .HeaderRightsideCard {
+    h1 {
+      font-size: 23px !important;
     }
   }
 }

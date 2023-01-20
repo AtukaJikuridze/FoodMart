@@ -6,7 +6,6 @@
   box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.04);
   border-radius: 16px;
   padding: 15px;
-  margin-bottom: 15px;
 }
 
 .section5-card-image {
@@ -103,7 +102,7 @@
   font-size: 16px;
   line-height: 22px;
   -webkit-text-decoration-line: line-through;
-  text-decoration-line: line-through;
+          text-decoration-line: line-through;
   text-transform: capitalize;
   color: #a8a8a8;
   transform: translatey(5px);
@@ -136,10 +135,7 @@
 .section5-card-text .section5-card-bottom .section5-card-bottom-leftside {
   display: flex;
 }
-.section5-card-text
-  .section5-card-bottom
-  .section5-card-bottom-leftside
-  button {
+.section5-card-text .section5-card-bottom .section5-card-bottom-leftside button {
   width: 26px;
   height: 27px;
   background: #ffffff;
@@ -157,4 +153,4 @@
   line-height: 29px;
   text-transform: capitalize;
   color: #222222;
-} /*# sourceMappingURL=Section5Card.css.map */
+}/*# sourceMappingURL=Section5Card.css.map */
