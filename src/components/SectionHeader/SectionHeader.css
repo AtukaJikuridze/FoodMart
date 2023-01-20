@@ -3,6 +3,15 @@
   display: flex;
   justify-content: space-between;
 }
+.section-header h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #222222;
+}
 .section-header .section-header-rightside {
   margin-top: 10px;
   display: flex;

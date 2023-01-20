@@ -1,0 +1,160 @@
+.section5-card {
+  width: 100%;
+  height: 437px;
+  background: #ffffff;
+  border: 1px solid #fbfbfb;
+  box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.section5-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 236px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  position: relative;
+}
+.section5-card-image .discount {
+  left: 10px;
+  top: 10px;
+  width: 55px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  background: #a3bf4c;
+  border-radius: 4px;
+  position: absolute;
+  color: #fff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.section5-card-image .discount p {
+  transform: translateY(2px);
+}
+.section5-card-image .heart {
+  position: absolute;
+  width: 40px;
+  height: 41px;
+  right: 11px;
+  top: 10px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 0.5px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section5-card-text {
+  padding: 10px 0px;
+}
+.section5-card-text h1:nth-child(1) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #333333;
+}
+.section5-card-text .d-flex p:nth-child(1) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #9d9d9d;
+}
+.section5-card-text .d-flex svg {
+  margin-left: 15px;
+  color: #ffc43f;
+}
+.section5-card-text .d-flex p:nth-child(3) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: #222222;
+  transform: translateY(-1px) translateX(4px);
+}
+.section5-card-text .section5-card-pricedifference {
+  margin-top: -5px;
+  display: flex;
+}
+.section5-card-text .section5-card-pricedifference h2:nth-child(1) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #a8a8a8;
+  transform: translatey(5px);
+  margin-right: 5px;
+}
+.section5-card-text .section5-card-pricedifference h2:nth-child(2) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #222222;
+}
+.section5-card-text .sold {
+  display: flex;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #ed8939;
+}
+.section5-card-text .section5-card-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.section5-card-text .section5-card-bottom .section5-card-bottom-leftside {
+  display: flex;
+}
+.section5-card-text
+  .section5-card-bottom
+  .section5-card-bottom-leftside
+  button {
+  width: 26px;
+  height: 27px;
+  background: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.section5-card-text .section5-card-bottom .section5-card-bottom-leftside p {
+  margin: 0px 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #222222;
+} /*# sourceMappingURL=Section5Card.css.map */
