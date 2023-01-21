@@ -1,0 +1,13 @@
+.section9 {
+  padding: 50px 0px 100px 0px;
+}
+
+@media screen and (max-width: 990px) {
+  .section9 {
+    padding: 10px 0px 100px 0px;
+  }
+  .section9-card {
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=Section9.css.map */

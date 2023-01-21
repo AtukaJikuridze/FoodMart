@@ -1,0 +1,72 @@
+.tags-h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  text-transform: capitalize;
+  color: #222222;
+  margin: 100px 0px 60px 0px;
+}
+.tags-main {
+  padding: 0px 0px 100px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.tag {
+  cursor: pointer;
+  padding: 10px 14px;
+  width: auto;
+  height: 42px;
+  background: #fcf7eb;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  p {
+    margin-bottom: 0px;
+    width: 100%;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #555555;
+    transition: 0.4s;
+  }
+}
+.tag:hover {
+  background: #f9d588;
+}
+@media screen and (max-width: 990px) {
+  .tags-h1 {
+    margin: 0px 0px 60px 0px;
+  }
+
+  .tags-main {
+    justify-content: center;
+    .tag {
+      padding: 24px 25px;
+      width: 47%;
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 590px) {
+  .tags-h1 {
+    font-size: 30px;
+  }
+  .tags-main {
+    .tag {
+      width: 100%;
+      text-align: center;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
