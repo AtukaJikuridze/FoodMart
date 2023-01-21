@@ -1,0 +1,41 @@
+.section8 {
+  padding-bottom: 100px;
+  .section8-information {
+    display: flex;
+
+    img {
+      opacity: 1;
+      position: unset;
+      transform: translateY(-50px);
+    }
+  }
+}
+.section8-main {
+  padding: 0px 261px;
+}
+.section8-information-text {
+  padding: 114px 60px;
+  h1 {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: capitalize;
+    color: #222222;
+  }
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 195%;
+    letter-spacing: 0.03em;
+    color: #555555;
+  }
+}
+.downloadButtons {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+}

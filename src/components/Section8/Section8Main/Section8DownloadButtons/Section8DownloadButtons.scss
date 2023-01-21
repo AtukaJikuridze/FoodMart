@@ -1,0 +1,30 @@
+.downloadBtn {
+  display: flex;
+  width: 208px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 7px;
+  padding: 10px 15px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  img {
+    transform: translateY(0px) !important;
+    width: 35.58px;
+    height: 39.22px;
+  }
+  h5 {
+    color: #222222;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 0;
+  }
+  p {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    font-family: "Nunito" !important;
+    line-height: 1 !important;
+  }
+}

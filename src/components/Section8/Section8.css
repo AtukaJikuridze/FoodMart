@@ -1,0 +1,76 @@
+.section8-main {
+  width: 100%;
+  height: 547px;
+  border-radius: 46px;
+  background: #fff9eb;
+  position: relative;
+}
+.section8-main img:nth-child(1) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+}
+.section8-main img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  opacity: 0.4;
+}
+.section8-main img:nth-child(3) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 1600px) {
+  .section8 .section8-main {
+    padding: 0px 40px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .section8 .section8-main {
+    padding: 0px 40px;
+  }
+  .section8 .section8-main img:nth-child(2),
+.section8 .section8-main img:nth-child(3) {
+    display: none;
+  }
+  .section8 .section8-information-text {
+    padding: 40px 10px;
+  }
+}
+@media screen and (max-width: 990px) {
+  body .section8 .section8-main {
+    text-align: center;
+    height: auto;
+  }
+  body .section8 .section8-main .lb-img {
+    display: none;
+  }
+  body .section8 .section8-main .phone {
+    display: none;
+  }
+  body .section8 .section8-information {
+    display: block;
+  }
+  body .downloadButtons {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 590px) {
+  .section8-main {
+    padding: 0px 20px !important;
+  }
+  .section8-information-text p {
+    font-size: 13px !important;
+  }
+  .downloadButtons .downloadBtn p {
+    font-size: 9px !important;
+  }
+  .downloadButtons .downloadBtn h5 {
+    font-size: 11px;
+  }
+}/*# sourceMappingURL=Section8.css.map */
