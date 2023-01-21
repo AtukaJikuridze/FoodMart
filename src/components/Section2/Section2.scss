@@ -1,3 +1,8 @@
 .section2 {
   padding-bottom: 168px;
 }
+@media screen and (max-width: 770px) {
+  .section2-card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 22px !important;
+  }
+}

@@ -1,0 +1,40 @@
+.section7 {
+  padding: 100px 0px;
+}
+.broccoli {
+  width: 60% !important;
+}
+@media screen and (max-width: 1599px) {
+  .section7-card {
+    height: auto !important;
+    margin-bottom: 20px;
+    img {
+      height: 100%;
+    }
+    .broccoli {
+      height: unset;
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .section7-card {
+    img {
+      height: 100%;
+    }
+    .broccoli {
+      width: 40% !important;
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .section7-card {
+    .broccoli {
+      width: 65% !important;
+    }
+    .section7-card-image {
+      height: 325px !important;
+    }
+  }
+}

@@ -41,4 +41,18 @@
   .inputDiv {
     width: 100% !important;
   }
+  .section6-main {
+    padding: 60px 0px;
+  }
+  .section6-leftside {
+    width: 100%;
+    text-align: center;
+  }
+  .section6-leftside h1,
+.section6-leftside p {
+    width: 100% !important;
+  }
+  .section6-leftside h1 {
+    font-size: 42px !important;
+  }
 }/*# sourceMappingURL=Section6.css.map */

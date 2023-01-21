@@ -17,7 +17,7 @@ export default function Section6Rightside() {
         <p>Password</p>
         <div className="inputDiv">
           <HiLockClosed />
-          <input type="text" placeholder="Create a password..." />
+          <input type="password" placeholder="Create a password..." />
         </div>
       </div>
 
@@ -25,7 +25,7 @@ export default function Section6Rightside() {
         <p>Repeat Password</p>
         <div className="inputDiv">
           <HiLockClosed />
-          <input type="text" placeholder="Repeat a password..." />
+          <input type="password" placeholder="Repeat a password..." />
         </div>
       </div>
 

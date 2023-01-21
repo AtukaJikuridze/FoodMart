@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=:wght@700&family=Open+Sans:wght@400;600&display=swap");
-Nunito * {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;600&display=swap");
+* {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
@@ -15,6 +15,16 @@ Nunito * {
     flex: 0 0 50%;
     max-width: 50%;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .section1-card,
+.section2-card,
+.section3-card,
+.section4-card,
+.section5-card,
+.section7-card {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px !important;
   }
 }
 @media (max-width: 600px) {
