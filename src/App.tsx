@@ -12,6 +12,7 @@ import Section7 from "./components/Section7/Section7";
 import Section8 from "./components/Section8/Section8";
 import Tags from "./components/Tags/Tags";
 import Section9 from "./components/Section9/Section9";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Section8 />
       <Tags />
       <Section9 />
+      <Footer />
     </>
   );
 }
