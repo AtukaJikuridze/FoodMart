@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
@@ -11,24 +11,48 @@ import Section6 from "./components/Section6/Section6";
 import Section7 from "./components/Section7/Section7";
 import Section8 from "./components/Section8/Section8";
 import Tags from "./components/Tags/Tags";
-import Section9 from "./components/Section9/Section9";
 import Footer from "./components/Footer/Footer";
-
+import ClipLoader from "react-spinners/FadeLoader";
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 4000);
+  }, []);
   return (
     <>
-      <Header />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Section8 />
-      <Tags />
-      <Section9 />
-      <Footer />
+      {loading ? (
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
+        >
+          <ClipLoader
+            loading={loading}
+            aria-label="Loading Spinner"
+            data-testid="loader"
+          />
+        </div>
+      ) : (
+        <>
+          <Header />
+          <Section1 />
+          <Section2 />
+          <Section3 />
+          <Section4 />
+          <Section5 />
+          <Section6 />
+          <Section7 />
+          <Section8 />
+          <Tags />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
