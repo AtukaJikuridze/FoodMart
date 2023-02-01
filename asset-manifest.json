@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SecondReactProject/static/css/main.572f8dfc.css",
-    "main.js": "/SecondReactProject/static/js/main.866ff318.js",
+    "main.css": "/SecondReactProject/static/css/main.3bbff3c6.css",
+    "main.js": "/SecondReactProject/static/js/main.3680093d.js",
     "static/js/787.414ae519.chunk.js": "/SecondReactProject/static/js/787.414ae519.chunk.js",
     "static/media/headerBg.png": "/SecondReactProject/static/media/headerBg.5bd9b5028f8635301018.png",
     "static/media/headerFruit1.png": "/SecondReactProject/static/media/headerFruit1.1447168481cb0116a69c.png",
@@ -39,12 +39,12 @@
     "static/media/first-image.png": "/SecondReactProject/static/media/first-image.cd8f4c29a54366f8a887.png",
     "static/media/section8-righttop.png": "/SecondReactProject/static/media/section8-righttop.53a1c3e5a6a92316a901.png",
     "index.html": "/SecondReactProject/index.html",
-    "main.572f8dfc.css.map": "/SecondReactProject/static/css/main.572f8dfc.css.map",
-    "main.866ff318.js.map": "/SecondReactProject/static/js/main.866ff318.js.map",
+    "main.3bbff3c6.css.map": "/SecondReactProject/static/css/main.3bbff3c6.css.map",
+    "main.3680093d.js.map": "/SecondReactProject/static/js/main.3680093d.js.map",
     "787.414ae519.chunk.js.map": "/SecondReactProject/static/js/787.414ae519.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.572f8dfc.css",
-    "static/js/main.866ff318.js"
+    "static/css/main.3bbff3c6.css",
+    "static/js/main.3680093d.js"
   ]
 }
