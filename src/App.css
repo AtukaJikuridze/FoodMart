@@ -4,6 +4,9 @@
   padding: 0px;
   margin: 0px;
 }
+.b {
+  background-color: red !important;
+}
 
 @media (min-width: 1600px) {
   .container {
@@ -19,11 +22,11 @@
 }
 @media screen and (max-width: 770px) {
   .section1-card,
-.section2-card,
-.section3-card,
-.section4-card,
-.section5-card,
-.section7-card {
+  .section2-card,
+  .section3-card,
+  .section4-card,
+  .section5-card,
+  .section7-card {
     box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 8px !important;
   }
 }
@@ -33,4 +36,4 @@
     max-width: 100%;
     margin-bottom: 20px;
   }
-}/*# sourceMappingURL=App.css.map */
+} /*# sourceMappingURL=App.css.map */

@@ -14,45 +14,38 @@ import Tags from "./components/Tags/Tags";
 import Footer from "./components/Footer/Footer";
 import ClipLoader from "react-spinners/FadeLoader";
 function App() {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 4000);
-  }, []);
+  const [load, setLoad] = useState(true);
+  setTimeout(() => {}, 4000);
+  window.addEventListener("load", () => {
+    setLoad(false);
+  });
   return (
     <>
-      {loading ? (
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "100vh",
-          }}
-        >
-          <ClipLoader
-            loading={loading}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
-        </div>
-      ) : (
-        <>
-          <Header />
-          <Section1 />
-          <Section2 />
-          <Section3 />
-          <Section4 />
-          <Section5 />
-          <Section6 />
-          <Section7 />
-          <Section8 />
-          <Tags />
-          <Footer />
-        </>
-      )}
+      <>
+        {load ? (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "100vh",
+            }}
+          >
+            <ClipLoader aria-label="Loading Spinner" data-testid="loader" />
+          </div>
+        ) : null}
+        <Header />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <Section8 />
+        <Tags />
+        <Footer />
+      </>
     </>
   );
 }
