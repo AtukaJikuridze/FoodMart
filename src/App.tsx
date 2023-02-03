@@ -13,6 +13,7 @@ import Section8 from "./components/Section8/Section8";
 import Tags from "./components/Tags/Tags";
 import Footer from "./components/Footer/Footer";
 import ClipLoader from "react-spinners/FadeLoader";
+import { left } from "@popperjs/core";
 function App() {
   const [load, setLoad] = useState(true);
   setTimeout(() => {}, 4000);
@@ -23,14 +24,7 @@ function App() {
     <>
       <>
         {load ? (
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100vh",
-            }}
-          >
+          <div className="loader">
             <ClipLoader aria-label="Loading Spinner" data-testid="loader" />
           </div>
         ) : null}
